@@ -1,0 +1,194 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic, sans-serif;
+	background-color: #ededed;
+}
+
+a {
+	color: black;
+}
+
+.btn-success, .btn-warning, .btn-danger, .btn-info, .btn-primary,
+.btn-outline-success, .btn-outline-warning, .btn-outline-danger, .btn-outline-info, .btn-outline-primary {
+    box-shadow: 3px 3px 3px #afafaf;
+}
+
+.btn-form {
+    width: 100px;
+    box-shadow: 3px 3px 3px #afafaf;
+}
+
+/*-start of index*/
+
+.jumbotron {
+	background-image: url(gambar/3.png);
+	margin-bottom: 0;
+	margin-left: 70px!important;
+	padding-left: 70px!important;
+	padding-top: 100px!important;
+}
+
+.container-jumbotron {
+	background-image: url(gambar/3.png);
+	padding-bottom: 40px;
+}
+
+.main-caption {
+	font-size: 35pt;
+	line-height: 1.5;
+}
+
+.tagline {
+	font-size: 14pt;
+	line-height: 2;
+}
+
+.btn-login {
+	font-weight: bold; 
+	background-color: #f39f06;  
+	padding: 10px 30px; 
+	box-shadow: 0 2px 6px #c6a252;
+	color: #fff;
+	border: none;
+}
+
+.btn-login:hover {
+	background-color: #c60505;
+	color: white;
+	transition: 0.5s;
+}
+
+.btn-refresh {
+	padding: 0 5px;
+	font-weight: bold;
+	background-color: #c60505;
+}
+
+.btn-refresh:hover {
+	background-color: #990707;
+	transition: 0.5s;
+}
+ 
+.btn-success:hover {
+	background-color: #068031!important;
+}
+
+.btn-outline-success:hover {
+	background-color: #068031;
+}
+
+/*-end of side index*/
+
+/*-start of navbar*/
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	transition: 0.5s;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	z-index: 1;
+	padding-right: 30px;
+}
+
+.navbar .navbar-brand {
+	font-family: "Century Gothic", sans-serif;
+	font-size: 18pt;
+	line-height: 30px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #b50502;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+	color: #ffcf4d;
+}
+
+.img-responsive {
+	margin-right: 15px;
+	float: left; 
+	height: 30px; 
+	width: 30px;
+}
+
+/*-end of side navbar*/
+
+/*-start of form*/
+
+.card-heading {
+	border-bottom: 1px solid #ddd;
+}
+
+form {
+	font-size: 10.5pt;
+}
+
+form label {
+	font-weight: bold;
+}
+
+.form-control {
+	font-size: 10.5pt!important;
+}
+
+.card-body {
+	font-size: 11pt;
+}
+
+.line-height-note {
+	line-height: 1.5;
+}
+/*-end of side form*/
+
+/*-start of footer*/
+
+.footer{
+	width: 100%;
+	height: 50px;
+	color: white;
+	background-color: #b50502;
+	padding-bottom: 5px;
+	padding-top: 1px;
+	font-size: 11pt!important;
+}
+
+/*-end of side footer*/
+
+@media (max-width: 975px) {
+	.jumbotron {
+		margin-left: 0px!important;
+		padding-left: 60px!important;
+		padding-right: 0!important;
+		padding-top: 100px!important;
+	}
+}
+
+@media (max-width: 800px) {
+	.btn-form {
+		width: 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.btn-form {
+		width: 100px;
+	}
+
+	.navbar .navbar-brand {
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+
+	.jumbotron {
+		margin-left: 0px!important;
+		padding-left: 30px!important;
+		padding-top: 100px!important;
+	}
+}
+
